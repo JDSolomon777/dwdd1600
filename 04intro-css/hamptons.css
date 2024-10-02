@@ -1,0 +1,136 @@
+body{
+  font-family: "Merriweather", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  margin: 0; 
+}
+
+/*Header Stuff Here*/
+header {
+    background-color: #343642;
+    padding: 1rem 2vw; 
+}
+header h1 {
+    color: #f2ebc7; 
+    margin: 0;
+    font-weight: 700;
+    
+}
+header h2 {
+    color: #f2ebc7; 
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 5.2px
+}
+header p {
+    margin: 0;
+    color: whitesmoke;
+    font-weight: 700;
+    letter-spacing: 2.3px;
+    padding: .5rem 0
+}
+
+/*Nav Stuff Goes Here*/
+nav {
+    background-color: #962d3e;
+    
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+nav ul li a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #f2ebc7;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem
+}
+nav li.active a {
+    background-color: #ababab;
+    color: #457383;
+}
+nav a:hover {
+    color: #348899;
+}
+
+/*Stuff for the main*/
+
+main {
+    padding: 1rem 2vw;
+}
+main h1 {
+     color: #343642;
+}
+
+main h2 {
+    color: #962d3e;
+    margin-bottom: .2rem;
+    }
+
+main p {
+    color: #0d0d0d;
+    margin-bottom: .3rem;
+}
+
+main ol{
+    padding: .6rem 4vw;
+    background-color: #343642;
+    color: whitesmoke
+}
+
+main dl dt {
+    color: #962d3e;
+    font-weight: 700;
+    
+}
+
+main dl dd {
+    color: #0d0d0d;
+    font-size: .9rem;
+}
+
+main ul {
+    list-style-type: square;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+main address {
+    font-style:normal;
+    background-color: #f2ebc7;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 2px solid #348899;
+    border-radius: .5rem;
+}
+
+main a {
+    color: #962D3e;
+}
+
+main a:hover {
+    color: #348899;
+}
+
+/*footer stuff goes here*/
+footer {
+     background-color: #343642;
+    text-align: center;
+    color: #f2ebc7;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+footer a {
+    color: whitesmoke;
+}
+
+footer a:hover {
+    color: #348899;
