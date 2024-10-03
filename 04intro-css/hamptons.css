@@ -1,21 +1,19 @@
 body{
   font-family: "Merriweather", sans-serif;
+  font-size: 16px;
   font-weight: 300;
   font-style: normal;
-  font-size: 16px;
   margin: 0; 
 }
-
 /*Header Stuff Here*/
 header {
     background-color: #343642;
     padding: 1rem 2vw; 
 }
 header h1 {
-    color: #f2ebc7; 
     margin: 0;
+    color: #f2ebc7; 
     font-weight: 700;
-    
 }
 header h2 {
     color: #f2ebc7; 
@@ -30,11 +28,9 @@ header p {
     letter-spacing: 2.3px;
     padding: .5rem 0
 }
-
 /*Nav Stuff Goes Here*/
 nav {
     background-color: #962d3e;
-    
 }
 nav ul {
     list-style-type: none;
@@ -57,43 +53,34 @@ nav li.active a {
 nav a:hover {
     color: #348899;
 }
-
 /*Stuff for the main*/
-
 main {
     padding: 1rem 2vw;
 }
 main h1 {
      color: #343642;
 }
-
 main h2 {
     color: #962d3e;
     margin-bottom: .2rem;
     }
-
 main p {
     color: #0d0d0d;
     margin-bottom: .3rem;
 }
-
 main ol{
     padding: .6rem 4vw;
     background-color: #343642;
     color: whitesmoke
 }
-
 main dl dt {
     color: #962d3e;
-    font-weight: 700;
-    
+    font-weight: 700; 
 }
-
 main dl dd {
     color: #0d0d0d;
     font-size: .9rem;
 }
-
 main ul {
     list-style-type: square;
 }
@@ -102,7 +89,6 @@ main ul li {
     margin-bottom: .5rem;
     font-size: .9rem;
 }
-
 main address {
     font-style:normal;
     background-color: #f2ebc7;
@@ -111,15 +97,12 @@ main address {
     border: 2px solid #348899;
     border-radius: .5rem;
 }
-
 main a {
     color: #962D3e;
 }
-
 main a:hover {
     color: #348899;
 }
-
 /*footer stuff goes here*/
 footer {
      background-color: #343642;
