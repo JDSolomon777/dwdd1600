@@ -1,0 +1,149 @@
+body{
+  font-family: "Merriweather", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  margin: 0; 
+}
+/*Header Stuff Here*/
+header {
+    background-color: #343642;
+    padding: 1rem 2vw; 
+}
+header h1 {
+    margin: 0;
+    color: #f2ebc7; 
+    font-weight: 700;
+}
+header h2 {
+    color: #f2ebc7; 
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 5.2px
+}
+header p {
+    margin: 0;
+    color: whitesmoke;
+    font-weight: 700;
+    letter-spacing: 2.3px;
+    padding: .5rem 0
+}
+/*Nav Stuff Goes Here*/
+nav {
+    background-color: #962d3e;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+nav ul li a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #f2ebc7;
+    font-weight: 700;
+    display: block;
+    padding: .813rem 2rem
+}
+.active {
+    background-color: #979c9c;
+    color: #962d3e;
+}
+nav a:hover {
+    color: #348899;
+}
+/*Stuff for the main*/
+main {
+    padding: 1rem 2vw;
+}
+main h1 {
+     color: #343642;
+}
+main h2 {
+    color: #962d3e;
+    margin-bottom: .2rem;
+    }
+main p {
+    color: #0d0d0d;
+    margin-bottom: .3rem;
+}
+main ol{
+    padding: .6rem 4vw;
+    background-color: #343642;
+    color: whitesmoke
+}
+main dl dt {
+    color: #962d3e;
+    font-weight: 700; 
+}
+main dl dd {
+    color: #0d0d0d;
+    font-size: .9rem;
+}
+main ul {
+    list-style-type: square;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+main address {
+    font-style:normal;
+    background-color: #f2ebc7;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 2px solid #348899;
+    border-radius: .5rem;
+}
+main a {
+    color: #962D3e;
+}
+main a:hover {
+    color: #348899;
+}
+figure.wrapped {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+}
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+        
+}
+
+div.gallery figure {
+    margin: .5rem 2% 0 0;
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #962d3e;
+    }
+
+/*footer stuff goes here*/
+footer {
+     background-color: #343642;
+    text-align: center;
+    color: #f2ebc7;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+footer a {
+    color: whitesmoke;
+}
+
+footer a:hover {
+    color: #348899;
