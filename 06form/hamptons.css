@@ -193,8 +193,8 @@ footer {
      background-color: #343642;
     text-align: center;
     color: #f2ebc7;
-    padding: 1rem .9;
-    font-size: .8rem;
+    padding: 0; height:150%; min-height:150%; position:relative;
+    font-size: 0.8rem;
 }
 footer a {
     color: whitesmoke;
