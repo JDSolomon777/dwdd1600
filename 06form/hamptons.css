@@ -154,7 +154,7 @@ div.gallery figcaption {
     display: block;
     
 }
-.myForm [type=text], .myForm [type=tel], .myForm select, .myForm textarea {
+.myForm [type=text], .myForm [type=tel], .myForm [type=email], .myForm select, .myForm textarea {
     border: solid 2px #962d3e;
     padding: .4rem;
     width: 500px;
