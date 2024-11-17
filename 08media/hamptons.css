@@ -1,0 +1,306 @@
+/* prevent problems with different browsers*/
+*{box-sizing: border-box;}
+
+body{
+  font-family: "Merriweather", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  margin: 0; 
+}
+/*Header Stuff Here*/
+header {
+    background-color: #343642;
+    padding: 1rem 2vw; 
+    display: flex;
+    align-items: center;
+}
+header div{
+    padding-left: 1vw;
+}
+header h1 {
+    margin: 0;
+    color: #f2ebc7; 
+    font-weight: 700;
+}
+header h2 {
+    color: #f2ebc7; 
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 5.2px
+}
+header p {
+    margin: 0;
+    color: whitesmoke;
+    font-weight: 700;
+    letter-spacing: 2.3px;
+    padding: .5rem 0
+}
+/*Nav Stuff Goes Here*/
+
+/*small screens*/
+@media only screen and (max-width: 600px){
+    nav ul {
+        margin: 0;
+        padding: 0 2vw;
+        list-style-type: none;
+    }
+    
+    nav a {
+        display: block;
+        padding: .8rem;
+        text-decoration: none;
+        font-weight: 700; 
+        text-transform: uppercase;
+        text-align: center;
+        border-bottom: solid 1px #343642;
+        color: #343642;  
+    }
+    
+    nav .active {
+        background-color: #962d3e;
+        background-image:linear-gradient(to bottom, #0A0A40, #343642);
+        color: #f2ebc7;
+        
+    }
+    
+} /*end of the media query*/
+
+
+
+
+/*BIG SCREENS*/
+@media only screen and (min-width: 601px){
+    nav {
+    background-color: #0A0A40;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+nav ul li a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #f2ebc7;
+    font-weight: 700;
+    display: block;
+    padding: .813rem 2rem
+}
+.active {
+    background-color: #979c9c;
+    color: #962d3e;
+}
+nav a:hover {
+    color: #348899;
+}
+    
+} /*end of the media query*/
+
+
+
+
+
+/*Stuff for the main*/
+main {
+    padding: 1rem 2vw;
+}
+main h1 {
+     color: #343642;
+}
+main h2 {
+    color: #962d3e;
+    margin-bottom: .2rem;
+    }
+main p {
+    color: #0d0d0d;
+    margin-bottom: .3rem;
+}
+main ol{
+    padding: .6rem 4vw;
+    background-color: #343642;
+    color: whitesmoke
+}
+main dl dt {
+    color: #962d3e;
+    font-weight: 700; 
+}
+main dl dd {
+    color: #0d0d0d;
+    font-size: .9rem;
+}
+main ul {
+    list-style-type: square;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+main address {
+    font-style:normal;
+    background-color: #f2ebc7;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 2px solid #348899;
+    border-radius: .5rem;
+}
+main a {
+    color: #962D3e;
+}
+main a:hover {
+    color: #348899;
+}
+
+.hamptonshero {
+    width: 100%;
+    margin: 0;
+    }
+.hamptonshero img {
+    width: 100%;
+    height: auto;
+     box-shadow: 6px 6px 5px #979c9c;
+}
+
+
+
+
+
+
+
+figure.wrapped {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+    
+}
+
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+        
+}
+
+div.gallery figure {
+    margin: .5rem 2% 0 0;
+    
+}
+
+div.gallery img:hover {
+    box-shadow: 6px 6px 5px black;
+    
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #962d3e;
+}
+
+
+
+.myForm fieldset {
+    border: 1px solid #343642;
+        border-radius: 8px;
+        margin-bottom: 2rem;
+}
+
+.myForm legend {
+    color: #962d3e;
+    font-size: 1rem;
+}
+
+.myForm label {
+    margin: .5rem;
+}
+
+.myForm label, .myForm select, .myForm [type=text], .myForm [type=tel], .myForm [type=email], .myForm textarea {
+    display: block;
+    
+}
+.myForm [type=text], .myForm [type=tel], .myForm [type=email], .myForm select, .myForm textarea {
+    border: solid 2px #962d3e;
+    padding: .4rem;
+    width: 500px;
+    border-radius: .6rem;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 200;
+    
+}
+
+.myForm textarea {
+    height: 5rem;   
+    
+}
+.myForm :required {
+    background-color: #f2ebc7
+    
+}
+
+
+.myForm [type=submit] {
+    background-color: #343642;
+    border: none;
+    padding: 1rem 2rem;
+        border-radius: 10px;
+    color: #f2ebc7;
+    margin: 1rem 0 0 .1vw;
+    
+}
+
+table.costs {
+    width: 100%;
+    border-collapse: collapse; 
+}
+table.costs th {
+    background-color: #0A0A40;
+    color: whitesmoke;
+    padding: .5rem 2vw;
+    text-align: left;
+}
+
+table.costs td {
+    color: #343642;
+    padding: .3rem 2vw;
+}
+
+table.costs tr:nth-child(odd){
+    background-color: #f2ebc7;
+}
+table.costs tr:hover {
+    background-color: #979c9c;
+  
+}
+
+
+/*footer stuff goes here*/
+footer {
+     background-color: #343642;
+    text-align: center;
+    color: #f2ebc7;
+    padding: 0; height:150%; min-height:150%; position:relative;
+    font-size: 0.8rem;
+}
+footer a {
+    color: whitesmoke;
+}
+
+footer a:hover {
+    color: #979c9c;  
+}
+    
+header, nav, main, footer {
+    max-width: 64rem;
+    margin: 0 auto;
+}   
+    
